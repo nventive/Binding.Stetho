@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27729.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stetho", "Stetho\Stetho.csproj", "{12967B2B-1492-4603-B999-2362039AD2FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stetho", "Stetho\Stetho.csproj", "{12967B2B-1492-4603-B999-2362039AD2FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,13 +19,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs03.nventive.local:8080/tfs/umbrella
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Stetho\\Stetho.csproj
-		SccProjectName1 = Stetho
-		SccLocalPath1 = Stetho
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F0F0379-6C50-42EF-A58B-A54CF9EB2B5E}
 	EndGlobalSection
 EndGlobal
