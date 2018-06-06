@@ -14,6 +14,16 @@
 		<GenerateAssemblyInformationalVersion>False</GenerateAssemblyInformationalVersion>
 	</PropertyGroup>
 
+	<PropertyGroup>
+		<PackageId>nventive.Stetho.Xamarin</PackageId>
+		<Title>Xamarin Binding for Stetho</Title>
+		<Description>A Xamarin binding for the version 1.1.0 of Stetho http://facebook.github.io/stetho/</Description>
+		<PackageProjectUrl>https://github.com/nventive/Stetho.Xamarin</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/nventive/Stetho.Xamarin/blob/master/License.md</PackageLicenseUrl>
+		<PackageIconUrl>https://github.com/nventive/Stetho.Xamarin/blob/master/logo.jpg</PackageIconUrl>
+		<Authors>nventive</Authors>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<Compile Remove="Build\**" />
 		<EmbeddedResource Remove="Build\**" />
@@ -46,6 +56,13 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
 		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="GitVersionTask" Version="4.0.0-beta0012">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+	  </PackageReference>
 	</ItemGroup>
 
 	<Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
