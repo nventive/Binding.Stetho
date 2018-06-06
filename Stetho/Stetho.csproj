@@ -20,7 +20,7 @@
 		<Description>A Xamarin binding for the version 1.1.0 of Stetho http://facebook.github.io/stetho/</Description>
 		<PackageProjectUrl>https://github.com/nventive/Stetho.Xamarin</PackageProjectUrl>
 		<PackageLicenseUrl>https://github.com/nventive/Stetho.Xamarin/blob/master/License.md</PackageLicenseUrl>
-		<PackageIconUrl>https://github.com/nventive/Stetho.Xamarin/blob/master/logo.jpg</PackageIconUrl>
+		<PackageIconUrl>https://raw.githubusercontent.com/nventive/Stetho.Xamarin/master/logo.jpg</PackageIconUrl>
 		<Authors>nventive</Authors>
 	</PropertyGroup>
 
